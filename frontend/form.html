@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trello</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form id="form">
+      <div class="title">Welcome</div>
+      <div class="subtitle">Let's create your card!</div>
+      <div class="input_fields">
+        <label for="name" class="label">Name</label>
+        <input id="name" required class="input" type="text" placeholder="Name" />
+      </div>
+      <div class="input_fields">
+        <label for="desc" class="label">Description</label>
+        <input id="desc"  required class="input" type="text" placeholder="Description" />
+      </div>
+      <div class="input_fields">
+        <label for="start" class="label">Start Date</label>
+        <input id="start"  required class="input" type="date" />
+      </div>
+      <div class="input_fields">
+        <label for="due" class="label">Due Date</label>
+        <input id="due"  required class="input" type="date" />
+      </div>
+      <input type="submit" value="Submit" class="submit" id="submit"></input>
+      <button id="submitting" class="submit">Submitting</button>
+    </form>
+  </body>
+</html>
+<script src="form.js"></script>
+
